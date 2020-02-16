@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/list_player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:text="PlayerName" />
+
+    <TextView
+        android:id="@+id/list_player_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/list_player_name"
+        android:layout_alignLeft="@id/list_player_name"
+        android:layout_alignBottom="@+id/list_player_name"
+        android:layout_marginStart="319dp"
+        android:layout_marginLeft="319dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="1dp"
+        android:text="Points" />
+</RelativeLayout>
