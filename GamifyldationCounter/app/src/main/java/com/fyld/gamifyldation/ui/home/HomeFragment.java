@@ -1,4 +1,4 @@
-package com.fyld.gamiyldation.ui.home;
+package com.fyld.gamifyldation.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.fyld.gamiyldation.R;
-import com.fyld.gamiyldation.data.DatabaseHelper;
+import com.fyld.gamifyldation.R;
+import com.fyld.gamifyldation.data.DatabaseHelper;
 
 public class HomeFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.fyld.gamiyldation.ui.home;
+package com.fyld.gamifyldation.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

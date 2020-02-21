@@ -1,8 +1,8 @@
-package com.fyld.gamiyldation;
+package com.fyld.gamifyldation;
 
 import android.os.Bundle;
 
-import com.fyld.gamiyldation.data.DatabaseHelper;
+import com.fyld.gamifyldation.data.DatabaseHelper;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 

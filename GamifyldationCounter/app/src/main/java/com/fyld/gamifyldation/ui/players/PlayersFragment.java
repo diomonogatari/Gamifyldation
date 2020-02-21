@@ -1,20 +1,17 @@
-package com.fyld.gamiyldation.ui.players;
+package com.fyld.gamifyldation.ui.players;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.fyld.gamiyldation.R;
-import com.fyld.gamiyldation.data.DatabaseHelper;
+import com.fyld.gamifyldation.R;
+import com.fyld.gamifyldation.data.DatabaseHelper;
 
 public class PlayersFragment extends Fragment {
 

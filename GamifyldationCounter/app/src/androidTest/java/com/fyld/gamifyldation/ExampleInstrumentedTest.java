@@ -1,4 +1,4 @@
-package com.fyld.gamiyldation;
+package com.fyld.gamifyldation;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.fyld.gamiyldation", appContext.getPackageName());
+        assertEquals("com.fyld.gamifyldation", appContext.getPackageName());
     }
 }

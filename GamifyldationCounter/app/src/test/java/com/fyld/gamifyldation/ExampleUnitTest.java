@@ -1,4 +1,4 @@
-package com.fyld.gamiyldation;
+package com.fyld.gamifyldation;
 
 import org.junit.Test;
 

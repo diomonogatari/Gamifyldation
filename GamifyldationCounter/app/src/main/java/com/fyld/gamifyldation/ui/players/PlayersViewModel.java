@@ -1,11 +1,10 @@
-package com.fyld.gamiyldation.ui.players;
+package com.fyld.gamifyldation.ui.players;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.fyld.gamiyldation.MainActivity;
-import com.fyld.gamiyldation.data.DatabaseHelper;
+import com.fyld.gamifyldation.data.DatabaseHelper;
 
 public class PlayersViewModel extends ViewModel {
 

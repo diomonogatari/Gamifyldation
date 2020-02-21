@@ -1,4 +1,4 @@
-package com.fyld.gamiyldation.ui.players;
+package com.fyld.gamifyldation.ui.players;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,14 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.fyld.gamiyldation.data.Player;
+import com.fyld.gamifyldation.data.Player;
 
 import java.util.ArrayList;
 
 public class PlayersAdapter extends BaseAdapter {
     Activity context;
     ArrayList<Player> playerList;
-    private static LayoutInflater inflater = null;
+    protected static LayoutInflater inflater = null;
 
     public PlayersAdapter(Activity context, ArrayList<Player> players){
         this.context = context;
@@ -25,21 +25,22 @@ public class PlayersAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return playerList.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return null;
+        return playerList.get(position);
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        View itemView;
         return null;
     }
 }
